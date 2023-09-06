@@ -1,1 +1,27 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Minecraft Level Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Minecraft Level Calculator</h1>
+        <div class="calculator">
+            <label for="currentLevel">Current Level:</label>
+            <input type="number" id="currentLevel" placeholder="Enter current level">
+            <label for="levelTarget">Level Target:</label>
+            <input type="number" id="levelTarget" placeholder="Enter level target">
+            <button id="calculateButton">Calculate</button>
+        </div>
+        <div class="result">
+            <p>Your current level is: <span id="currentExp"></span></p>
+            <p>Your level target is: <span id="targetExp"></span></p>
+            <p>Experience needed to reach the target: <span id="expNeeded"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
