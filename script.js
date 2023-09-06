@@ -29,3 +29,10 @@ function calculateExperience() {
     document.getElementById('targetExp').textContent = targetExp.toFixed(2);
     document.getElementById('expNeeded').textContent = expNeeded.toFixed(2);
 }
+
+const toggleModeButton = document.getElementById('toggleMode');
+const body = document.body;
+
+toggleModeButton.addEventListener('click', () => {
+  body.classList.toggle('dark-mode');
+});
