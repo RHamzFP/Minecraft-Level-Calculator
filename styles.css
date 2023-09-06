@@ -54,3 +54,21 @@ button:hover {
 .result {
     text-align: left;
 }
+
+/* Default light mode */
+:root {
+  --background-color: #f5f5f5;
+  --text-color: #333;
+}
+
+/* Dark mode */
+body.dark-mode {
+  --background-color: #333;
+  --text-color: #fff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
