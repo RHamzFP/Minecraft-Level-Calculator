@@ -64,6 +64,17 @@ button:hover {
     text-align: left;
 }
 
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    padding-right: 20px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
 /* Dark Mode Styles */
 
 .dark-mode-toggle-container {
